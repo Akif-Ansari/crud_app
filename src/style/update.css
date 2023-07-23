@@ -1,0 +1,37 @@
+.update-form{
+    height:280px;
+    width:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    translate:-50% -50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+}
+.update-form .group-update input{
+    margin:10px 0;
+    height:40px;
+    width:400px;
+    padding:0 12px;
+    outline:none;
+    background-color: transparent;
+    border:1px solid dodgerblue;
+    font-size:15px;
+    color:#444;
+}
+.update-form .group .btn{
+    height:40px;
+    width:190px;
+    margin:0 10px;
+    border:none;
+    outline:none;
+    color:#fff;
+}
+.update-form .group .update-btn{
+    background-color: dodgerblue;
+}
+.update-form .group .back-btn-update{
+    background-color:tomato;
+}

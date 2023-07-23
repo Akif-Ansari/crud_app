@@ -1,0 +1,13 @@
+::placeholder{
+    color:dodgerblue
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif,verdana,arial;
+}
+body{
+    min-height:100vh;
+    background-color:#ddd;
+}
